@@ -2,7 +2,7 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Your Name</title>
+  <title>John Antunes</title>
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Font Awesome for icons -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
@@ -14,15 +14,16 @@
     .profile-container { text-align:center; margin-top:48px; }
     .profile-img { width:180px; height:180px; border-radius:50%; border:5px solid #2d3748; object-fit:cover; }
     h1 { font-size:2.5rem; margin:32px 0 16px 0; }
-    .desc { font-size:1.2rem; }
+    .desc { font-size:1.2rem; max-width:600px; margin:0 auto; }
     footer { text-align:center; position:relative; }
     .social-icons a { color:#fff; margin:0 8px; font-size:1.4rem; }
     .copyright { margin-top:16px; font-size:0.95rem; }
+    .email-link { color:#2d3748; text-decoration:underline; font-size:1.05rem; margin-top:12px; display:inline-block; }
   </style>
 </head>
 <body>
 <header>
-  <div style="font-size:1.6rem; font-weight:bold;">Your Name</div>
+  <div style="font-size:1.6rem; font-weight:bold;">John Antunes</div>
   <nav>
     <a href="#">Home</a>
     <a href="#">About Me</a>
@@ -33,17 +34,20 @@
   </nav>
 </header>
 <div class="profile-container">
-  <img src="image.jpg" alt="Profile Photo" class="profile-img">
-  <h1>Hi! I'm Your Name</h1>
-  <div class="desc">A short line about your profession and passions.</div>
+  <img src="PXL_20240920_204308498.jpg" alt="Profile Photo" class="profile-img">
+  <h1>Hi, I'm John Antunes</h1>
+  <div class="desc">
+    English and Brazilian Portuguese teacher at Cégep de Lévis.<br>
+    I hold a M.A. and a B.A. in Linguistics from UFMG (Brazil) and I was a Linguistics Ph.D. candidate at UQAM (on hold).
+  </div>
+  <a href="mailto:linguistajohn@gmail.com" class="email-link">linguistajohn@gmail.com</a>
 </div>
 <footer>
   <div class="social-icons">
-    <a href="#"><i class="fab fa-twitter"></i></a>
-    <a href="#"><i class="fab fa-instagram"></i></a>
-    <a href="#"><i class="fab fa-linkedin"></i></a>
+    <a href="https://bsky.app/profile/nascijohn.bsky.social" title="Bluesky" target="_blank"><i class="fa-solid fa-cloud"></i></a>
+    <a href="https://www.instagram.com/johnlinguista" title="Instagram" target="_blank"><i class="fab fa-instagram"></i></a>
   </div>
-  <div class="copyright">&copy; 2025 Your Name. All rights reserved.</div>
+  <div class="copyright">&copy; 2025 John Antunes. All rights reserved.</div>
 </footer>
 </body>
 </html>
