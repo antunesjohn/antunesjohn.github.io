@@ -6,20 +6,28 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <!-- Font Awesome for icons -->
   <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" rel="stylesheet">
-  <style>
-    body { margin:0; font-family: 'Segoe UI', Arial, sans-serif; background:#f5f2ef; color:#2d3748; }
-    header, footer { background:#2d3748; color:#fff; padding:24px; }
-    header { display:flex; justify-content:space-between; align-items:center; }
-    nav a { color:#fff; text-decoration:none; margin:0 16px; font-weight:bold; }
-    .profile-container { text-align:center; margin-top:48px; }
-    .profile-img { width:180px; height:180px; border-radius:50%; border:5px solid #2d3748; object-fit:cover; }
-    h1 { font-size:2.5rem; margin:32px 0 16px 0; }
-    .desc { font-size:1.2rem; max-width:600px; margin:0 auto; }
-    footer { text-align:center; position:relative; }
-    .social-icons a { color:#fff; margin:0 8px; font-size:1.4rem; }
-    .copyright { margin-top:16px; font-size:0.95rem; }
-    .email-link { color:#2d3748; text-decoration:underline; font-size:1.05rem; margin-top:12px; display:inline-block; }
-  </style>
+<style>
+  body { margin:0; font-family: 'Segoe UI', Arial, sans-serif; background:#f5f2ef; color:#2d3748; }
+  header, footer { background:#2d3748; color:#fff; padding:24px; }
+  header { display:flex; flex-wrap:wrap; justify-content:space-between; align-items:center; }
+  nav a { color:#fff; text-decoration:none; margin:0 16px; font-weight:bold; font-size:1rem; }
+  .profile-container { text-align:center; margin-top:48px; padding:0 16px; }
+  .profile-img { width:180px; height:180px; border-radius:50%; border:5px solid #2d3748; object-fit:cover; }
+  h1 { font-size:2.5rem; margin:32px 0 16px 0; }
+  .desc { font-size:1.2rem; max-width:600px; margin:0 auto 16px auto; }
+  .social-icons a { color:#fff; margin:0 8px; font-size:1.4rem; }
+  .copyright { margin-top:16px; font-size:0.95rem; }
+  @media (max-width:600px) {
+    header, footer { padding:16px; }
+    header { flex-direction:column; align-items:flex-start; }
+    nav { margin-top:12px; }
+    nav a { margin:0 8px 8px 0; font-size:1rem; }
+    .profile-img { width:120px; height:120px; }
+    h1 { font-size:1.5rem; }
+    .desc { font-size:1rem; }
+  }
+</style>
+
 </head>
 <body>
 <header>
@@ -53,5 +61,6 @@
 
 </body>
 </html>
+
 
 
